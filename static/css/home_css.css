@@ -1,0 +1,238 @@
+body, html{
+  height: 100%;
+  width: 100%;
+  margin: 0%;
+  animation-name:blink;
+  animation-duration: .4s;
+}
+@keyframes blink{
+  0%{
+    opacity:0;
+  }
+  100{
+    opacity:1;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+h1{
+  position:centered;
+}
+
+#navbar{
+  z-index: 2;
+  text-align: right;
+  margin: 4px;
+  font-family: courier;
+  margin-right: 5
+}
+
+@media (max-width:350px){
+  #navbar{
+    text-align:center;
+  }
+  *{
+    color: black;
+    font-family: courier new;
+  }
+}
+
+#navbar a{
+  display: inline-block;
+  background-color: #0000aa;
+  color: #fff;
+}
+
+#navbar a:hover{
+  filter: invert(1);
+}
+
+
+nav{
+  background-color: #0000aa;
+  height: 20px;
+  position: fixed;
+  width: 100%;
+}
+
+.neg{
+  background: #fff;
+  color: #0000aa;
+  padding: 2px 8px;
+  font-weight: bold;
+}
+
+#welcome-section{
+  height: 100vh;
+}
+
+.top{
+  float: center;
+  width: 100%;
+  background-color: #0000aa;
+  border-collapse: collapse;
+  text-align: center;
+  font-family: courier;
+  color: #fff;
+  padding: 40px;
+}
+
+.work{
+  font-weight: normal;
+  font-family: montserrat;
+  padding-top: 50px;
+  margin-bottom: 20px;
+}
+
+#projects{
+  text-align: center;
+  height: 900px;
+  margin-top:0px;
+  width: 100%;
+  background-color: silver;
+  border-collapse: collpse;
+  overflow: hidden;
+  color: 	#FF6347;
+}
+
+.pro-img{
+  border: 3px #DB7093 solid;
+  margin: 5px;
+  display: inline-block;
+  margin: 4px 10px;
+}
+
+.project-title{
+  font-weight: bold;
+  text-align: center;
+  color: 	#FF6347;
+  border-bottom: 2px #FF6347 solid;
+}
+
+.show{
+  display:block;
+  width: 200px;
+  height: 40px;
+  border: 2px #DB7093 solid;
+  font-weight:bold;
+  text-align: center;
+  margin: 20px auto 90px;
+  padding: 5px;
+  background: #F08080;
+  font-size: 1em;
+  border-radius: 40px;
+  cursor:zoom-in;
+}
+
+.contact{
+  height: 500px;
+  width: 100%;
+  background-color: green;
+  border-collapse: collapse;
+}
+
+.contact-img{
+  border-color: red;
+  border-width:2px;
+  border-style: solid;
+  border-radius: 100%;
+  display: inline-block;
+  margin: 0px 10px 10px 0px;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+}
+
+.contact-img:hover{
+  opacity: .7;
+}
+
+.git{
+  width: 100px;
+}
+.mono{
+  font-family: monospace;
+}
+
+.one{
+  animation-name: blink-one;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  opacit
+}
+
+.two{
+  animation-name:blink-two;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-delay: .2s;
+  opacity:0;
+}
+.three{
+  animation-name:blink-three;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-delay: .3s;
+  opacity:0;
+}
+@keyframes blink-one{
+  0%{
+    opacity: 0;
+  }
+  25%{
+    opacity: .25;
+  }
+  50%{
+    opacity: .5;
+  }
+  75%{
+    opacity: .75;
+  }
+  100%{
+    opacity:1;
+  }
+
+}
+
+@keyframes blink-two{
+  0%{
+    opacity: 0;
+  }
+  25%{
+    opacity: .25;
+  }
+  50%{
+    opacity: .5;
+  }
+  75%{
+    opacity: .75;
+  }
+  100%{
+    opacity:1;
+  }
+
+}
+
+@keyframes blink-three{
+  0%{
+    opacity: 0;
+  }
+  25%{
+    opacity: .25;
+  }
+  50%{
+    opacity: .5;
+  }
+  75%{
+    opacity: .75;
+  }
+  100%{
+    opacity:1;
+  }
+
+}
