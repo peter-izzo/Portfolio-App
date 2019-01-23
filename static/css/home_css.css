@@ -94,8 +94,8 @@ nav{
   margin-top:0px;
   width: 100%;
   background-color: silver;
-  border-collapse: collpse;
-  overflow: hidden;
+  border-collapse: collapse;
+  overflow: scroll;
   color: 	#FF6347;
 }
 
@@ -111,6 +111,7 @@ nav{
   text-align: center;
   color: 	#FF6347;
   border-bottom: 2px #FF6347 solid;
+  float: left;
 }
 
 .show{
